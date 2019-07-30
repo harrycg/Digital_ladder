@@ -2,7 +2,7 @@
 
 require 'nationbuilder'
 
-client = NationBuilder::Client.new('aycc', ENV['HARRY_SANDBOX'], retries: 8)
+client = NationBuilder::Client.new('harrysandboxdev', ENV['HARRY_SANDBOX'], retries: 8)
 
 puts "find recently created people"
 
