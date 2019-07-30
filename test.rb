@@ -50,7 +50,4 @@ petition_count=tags.count{ |element| element.match('petition') }
 
 end  
   
-=begin
-  client.call(:people, :tag_person , add_tag)
-  =end
 
