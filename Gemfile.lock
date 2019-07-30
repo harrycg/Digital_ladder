@@ -1,0 +1,24 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    httpclient (2.8.3)
+    mustermann (1.0.0)
+    nationbuilder-rb (1.6.0)
+      httpclient (~> 2.7)
+    rack (2.0.6)
+    rack-protection (2.0.0)
+      rack
+    ruby_http_client (3.1.0)
+ 
+    tilt (2.0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  nationbuilder-rb
+  rack
+
+BUNDLED WITH
+   1.12.0
+
