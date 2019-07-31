@@ -42,13 +42,14 @@ total_actions=petition_count+email_count
   
   
     update_action_count = {
- person:  {
+ id: "#{id}",
+      person:  {
       
-      id: "#{id}",
  emails_2019:"#{email_count}",
  pettions_2019:"#{petition_count}",
  total_actions_2019: "#{total_actions}",  
-}
+
+        }
       }
   
     client.call(:people, :update , update_action_count)
