@@ -8,7 +8,7 @@ puts "find recently created people"
 
 #sets the tag you want to pull out
 create_recently_tag = {
-  tag: "A:%2019%20online%20action%20taken "
+  tag: "A:%2019%20online%20action%20taken"
   }
   
 #pulls people from nationbuilder
