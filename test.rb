@@ -41,14 +41,16 @@ total_actions=petition_count+email_count
   
   
   
-    add_tag = {
+    update_action_count = {
  id: "#{id}",
-  tagging: {
-    tag: "PETITIONS SIGNED:  #{petition_count}"
-  }
-  
+ emails_2019:"#{email_count}",
+ pettions_2019:"#{petition_count}",
+ total_actions_2019: "#{total_actions}",  
 }
 
+    client.call(:people, :update , update_action_count)
+  
+  
 end  
   
 
