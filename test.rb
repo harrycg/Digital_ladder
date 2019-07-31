@@ -1,5 +1,4 @@
 
-puts "find recently created people"
 
 require 'nationbuilder'
 
