@@ -2,7 +2,7 @@
 
 require 'nationbuilder'
 
-client = NationBuilder::Client.new('aycc', ENV['AYCC_API'], retries: 8)
+client = NationBuilder::Client.new('harrysandboxdev', ENV['HARRY_SANDBOX'], retries: 8)
 
 puts "find recently created people"
 
@@ -48,7 +48,6 @@ total_actions=petition_count+email_count
       
  emails_2019:"#{email_count}",
  petitions_2019:"#{petition_count}",
- total_actions_2019: "#{total_actions}",  
 
         }
       }
