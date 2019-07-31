@@ -34,9 +34,12 @@ create_recently_3.each do |create_recently_4|
   tags = create_recently_4['tags'] 
   puts "#{email} id #{id} #{tags}" 
   
-petition_count=tags.count{ |element| element.match('petition') }
+petition_count=tags.count{ |element| element.match('19 petition') }
+email_count=tags.count{ |element| element.match('19 email') }
+
+total_actions=petition_count+email_count
   
-  puts "#{email} id #{id} #{petition_count}" 
+  puts "#{email} petitions: #{petition_count} emails: #{email_count} total_actions: #{total_actions}" 
   
   
   
