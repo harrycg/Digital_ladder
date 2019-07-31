@@ -2,13 +2,13 @@
 
 require 'nationbuilder'
 
-client = NationBuilder::Client.new('harrysandboxdev', ENV['HARRY_SANDBOX'], retries: 8)
+client = NationBuilder::Client.new('aycc', ENV['AYCC_API'], retries: 8)
 
 puts "find recently created people"
 
 #sets the tag you want to pull out
 create_recently_tag = {
-  tag: "harrytest123"
+  tag: "A:%2019%20online%20action%20taken "
   }
   
 #pulls people from nationbuilder
