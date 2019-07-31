@@ -48,7 +48,7 @@ total_actions=petition_count+email_count
       
  emails_2019:"#{email_count}",
  petitions_2019:"#{petition_count}",
-
+total_actions_2019: "#{total_actions}",
         }
       }
   
