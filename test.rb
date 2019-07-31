@@ -19,6 +19,7 @@ create_recently_2 = NationBuilder::Paginator.new(client, create_recently_1)
 create_recently_3 = []
   create_recently_3 += create_recently_2.body['results']
 while create_recently_2.next?
+  puts "find recently created people"
   create_recently_2 = create_recently_2.next
   create_recently_3 += create_recently_2.body['results']
 end  
