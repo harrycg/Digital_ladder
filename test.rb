@@ -43,10 +43,11 @@ total_actions=petition_count+email_count
   
     update_action_count = {
  id: "#{id}",
+
       person:  {
       
  emails_2019:"#{email_count}",
- pettions_2019:"#{petition_count}",
+ petitions_2019:"#{petition_count}",
  total_actions_2019: "#{total_actions}",  
 
         }
